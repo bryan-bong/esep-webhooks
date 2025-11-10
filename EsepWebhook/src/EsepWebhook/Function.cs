@@ -1,3 +1,4 @@
+using System.Text;
 using Amazon.Lambda.Core;
 using Newtonsoft.Json;
 
