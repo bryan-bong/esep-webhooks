@@ -9,7 +9,7 @@ namespace EsepWebhook;
 
 public class Function
 {
-    public string FunctionHandler(string input, ILambdaContext context)
+    public string FunctionHandler(object input, ILambdaContext context)
     {
         dynamic json = JsonConvert.DeserializeObject<dynamic>(input.ToString());
 
